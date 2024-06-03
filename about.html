@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>About project</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <nav>
+
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="references.html">References</a>
+  </nav>
+
+  
+  <div class="container" text>
+    <h1>About this project</h1><br<br><br>
+    <p>The information included in this website is provided by Morteza Farrokhnejad for educational purposes only. The contents of this website serve as a project for ITEC 230(Rich Internet Application Development) course, under the guidance of <a href="https://staff.emu.edu.tr/emreozen/en">Assoc. Prof. Dr. Emre Ozen.</a><br>
+      Through this website you are able to link to other websites which are not under the control of Morteza Farrokhnejad. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them.
+      References used to make this project possible are located in "references" section.<br><br>
+      <h1>About the game (Technical information)</h1><br>
+      <p>-After clicking the "PLAY" button, 3 game modes will be displayed for the user to choose.<br>
+        -After choosing the difficulty, "Start" button will generate numbers from 1 to 9 and randomly spreads them across the first table.<br>
+        -"Easy" mode will give the user unlimited time to solve the puzzle, while "Medium" and "Hard" modes have timers which begin after pressing "Start".<br>
+        -In order to solve the puzzle, user needs to drag numbers from table 1 and drop them on table 2 in correct order(1,2,3,4,5,6,7,8 and 9).<br>
+        -When user has less than 5 seconds, the timer turns red.<br>
+        -After placing the numbers on the second table, "Check" button can be clicked on.<br>
+        -If user runs out of time, "You ran out of time" message will be displayed. If user fails to drop the numbers in correct order, "You Lose" message will be displayed with a mistake counter. Otherwise "You win" message will be displayed.<br>
+        -All numbers from either of the tables are made swappable for convinence.<br>
+      </p>
+    </div>
+
+  <footer>
+    <div class="container">
+      <div class="contact-info">
+        <div class="copyright">
+          <p align="center"><i>Copyright &copy 2023 Morteza Farrokhnejad .All rights reserved.</i></p><br>
+        </div>
+        <h3 align="left">Contact me: </h3>
+        <ul align="left">
+          <div>			
+            <a href="mailto:21700443@emu.edu.tr?subject=Regarding your ITEC 230 project"><img width=32px height=32px src="images/mail.jpg"></a>
+            <a href="https://www.linkedin.com/in/morteza-farrokhnejad-6b8686258/"><img width=27px height=27px src="images/linkedin.jpg"></a>
+            <a href="blank.html"><img width=27px height=27px src="images/instagram.jpg"></a>
+            <a href="blank.html"><img width=27px height=27px src="images/facebook.jpg"></a>
+            <a href="blank.html"><img width=27px height=27px src="images/telegram.jpg"></a>
+            <a href="blank.html"><img width=27px height=27px src="images/whatsapp.jpg"></a>
+          </div>
+            <hr width="100%">
+            
+          </ul>
+        </div>
+        
+      </div>
+    </footer>
+    <script language="Javascript">
+      document.querySelectorAll("a[href='blank.html']").forEach(a => {
+        a.addEventListener('click',function(e){
+        e.preventDefault();
+        alert("Sorry, this page is unavailable.");
+      })
+      })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>References</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style type="text/css">
+    .container a:link, .container a:visited {
+
+      color: #000000;
+      text-decoration: none;
+    }
+
+    .container a:hover, .container a:active {
+      color: orange;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="references.html">References</a>
+  </nav>
+
+  <div class="container">
+    <h1>References</h1>
+
+    <ul>
+      <li>
+        <a href="https://staff.emu.edu.tr/raygankansoy/en/teaching/itec229/lecture-notes">ITEC 229 educational
+          material</a><br><br>
+      </li>
+      <li>
+        <a href="https://staff.emu.edu.tr/emreozen/Documents/courses/230.zip">ITEC 230 educational material</a><br><br>
+      </li>
+      <li>
+        <a href="https://staff.emu.edu.tr/birolozkaya/en/teaching/itec215">ITEC 215 educational material</a><br><br>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/c/OnlineTutorials4Designers/videos">Online Tutorials</a><br><br>
+      </li>
+      <li>
+        <a href="https://www.w3schools.com/">W3Schools</a><br><br>
+      </li>
+      <li>
+        <a href="https://stackoverflow.com/">Stack Overflow</a><br><br>
+      </li>
+      <li>
+        <a href="https://www.fontspace.com/good-unicorn-font-f30445">The Font</a><br><br>
+      </li>
+
+    </ul>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="contact-info">
+        <div class="copyright">
+          <p align="center"><i>Copyright &copy 2023 Morteza Farrokhnejad .All rights reserved.</i></p><br>
+        </div>
+        <h3 align="left">Contact me: </h3>
+        <ul align="left">
+          <div>
+            <a href="mailto:21700443@emu.edu.tr?subject=Regarding your ITEC 230 project"><img width=32px height=32px
+                src="images/mail.jpg"></a>
+            <a href="https://www.linkedin.com/in/morteza-farrokhnejad-6b8686258/"><img width=27px height=27px
+                src="images/linkedin.jpg"></a>
+            <a href="blank.html"><img width=27px height=27px src="images/instagram.jpg"></a>
+            <a href="blank.html"><img width=27px height=27px src="images/facebook.jpg"></a>
+            <a href="blank.html"><img width=27px height=27px src="images/telegram.jpg"></a>
+            <a href="blank.html"><img width=27px height=27px src="images/whatsapp.jpg"></a>
+          </div>
+          <hr width="100%">
+
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+  <script language="Javascript">
+		document.querySelectorAll("a[href='blank.html']").forEach(a => {
+      a.addEventListener('click',function(e){
+      e.preventDefault();
+      alert("Sorry, this page is unavailable.");
+    })
+    })
+  </script>
+</body>
+
+</html>

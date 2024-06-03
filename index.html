@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/tablestyle.css">
+</head>
+
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="references.html">References</a>
+  </nav>
+
+ 
+  <div class="intro">
+    <br><br>
+
+    <div class="welcome">
+      <h1 class="word" data-value="Welcome! Let's Play A Game!">Welcome! Let's Play A Game!</h1>
+      
+    </div>
+    <h2 id="timer">TIME<br>0:00</h2>
+    <br><br><br>
+
+    <div class="game-container">
+      
+      <div id="buttons">
+
+        <button id="playbutton">PLAY</button>
+        <div id="difficulty">
+          <button id="easy">EASY</button>
+          <button id="medium">MEDIUM</button>
+          <button id="hard">HARD</button>
+        </div>
+      </div>
+
+
+      <div class="game">
+        <table id="drag-table">
+
+          <tr>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+          </tr>
+
+          <tr>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+          </tr>
+
+          <tr>
+            <td ></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        <button id="start">START</button>
+      </div>
+
+      <div class="game">
+        <table id="drop-table">
+          <tr>
+            <td id="drop0"></td>
+            <td id="drop1"></td>
+            <td id="drop2"></td>
+          </tr>
+
+          <tr>
+            <td id="drop3"></td>
+            <td id="drop4"></td>
+            <td id="drop5"></td>
+          </tr>
+
+          <tr>
+            <td id="drop6"></td>
+            <td id="drop7"></td>
+            <td id=drop8></td>
+          </tr>
+        </table>
+        <button id="check">CHECK</button>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/js1.js"></script>
+
+  <footer>
+    <div class="container">
+      <div class="contact-info">
+        <div class="copyright">
+          <p align="center"><i>Copyright &copy 2023 Morteza Farrokhnejad .All rights reserved.</i></p><br>
+        </div>
+        <h3 align="left">Contact me: </h3>
+        <ul align="left">
+          <div>
+            <a href="mailto:21700443@emu.edu.tr?subject=Regarding your ITEC 230 project"><img width=32px height=32px
+                src="images/mail.jpg"></a>
+            <a href="https://www.linkedin.com/in/morteza-farrokhnejad-6b8686258/"><img width=27px height=27px
+                src="images/linkedin.jpg"></a>
+            <a href="blank.html"><img width=27px height=27px src="images/instagram.jpg"></a>
+            <a href="blank.html"><img width=27px height=27px src="images/facebook.jpg"></a>
+            <a href="blank.html"><img width=27px height=27px src="images/telegram.jpg"></a>
+            <a href="blank.html"><img width=27px height=27px src="images/whatsapp.jpg"></a>
+            
+          </div>
+          <hr width="100%">
+
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+  <script language="Javascript">
+		document.querySelectorAll("a[href='blank.html']").forEach(a => {
+      a.addEventListener('click',function(e){
+      e.preventDefault();
+      alert("Sorry, this page is unavailable.");
+    })
+    })
+  </script>
+</body>
+
+</html>
