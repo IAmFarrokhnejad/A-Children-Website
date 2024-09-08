@@ -1,4 +1,4 @@
-
+// Autor: Morteza Farrokhnejad
 //this part is for letters
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
