@@ -26,7 +26,7 @@ window.onload = event => {
   }, 15);
 }
 
-//This part builds buttons for difficulty choices and animatees them dinamically
+//Builds buttons for difficulty choices and animatees them dinamically
 
 vplaybutton = document.getElementById('playbutton');
 vdif = document.getElementById('difficulty');
